@@ -22,6 +22,7 @@ check code for the functions, or just try it. first switches fsr mode, second on
 an led on PIN_LED connected via a current limiting resistor (between 1 to 10k depending on brightness needed and color of the led)
 
 check the code for the midi in cc's that switch the modes etc. also the bass reacts to program changes, it forwards them on all active channels and you can save 127 playstates on the bass (channelmode, octaves etc.)
+
 midi in circuit used: http://www.electronicsteacher.com/tutorial/midi-controller.php upper part of the diagram, pin 2 is the rx pin of the arduino. midi out pin is tx. (just a 220 ohm resistor to pin 5 of a midi controller pin 4 via 220 ohm to 5v, pin 2 is grounded)
 
 usb midi: the arduino micro can be used as a usb-midi device, i used this to enable it: https://github.com/rkistner/arcore
