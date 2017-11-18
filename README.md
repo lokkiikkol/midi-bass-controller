@@ -9,6 +9,7 @@ an arduino micro
 4 softpots, i used 500mm: https://www.sparkfun.com/products/8681 connect the leftmost lead to 5v via a 7.5k resistor and the middle one to ground. leave the right hand lead unconnected. from the leftmost lead to the corresponding analog in (see code again) (also before the resistor) i had to cut the softpots sligthly on both sides to fit 4 on a bass neck that was originally designed for 5 strings (check picture)
 
 a joystick: https://www.sparkfun.com/products/9032 one outer lead to 5v the other outer lead to ground, middle to an analog in (see code which) i only use one axis, and the button is also not used
+
 a pressure sensor: i used this https://www.conrad.ch/de/drucksensor-1-st-nxp-semiconductors-mpxv4006gc7u-0-kpa-bis-6-kpa-print-1182921.html see documentation for wiring, but it is one pin to 5v one to ground and one to an analog in, no extra hardware, all other pins are unconnected.
 
 an accelerometer: i used https://www.aliexpress.com/item/GY-61-ADXL335-three-axis-accelerometer-tilt-angle-module-alternative-MMA7260/32803571540.html?spm=a2g0s.9042311.0.0.84d3Li direct connection to the arduino as well. (check code for which analog in) again i only used one axis, since i only need to get vibrato (fast movement of my hand on the neck) place the accelerometer somewhere where the movement is the biggest (i used the end of the neck)
