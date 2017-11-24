@@ -77,7 +77,7 @@ fret defs stored in EEPROM for calibration purposes.
 Lower output voltages from USB ports result in different values read from
 SoftPots and wonky fret definitions.
 */
-unsigned int fretDefs[4][25];
+byte fretDefs[4][25];
 const byte mapfsr[] = {
 127,127,127,127,127,127,127,127,127,127,127,127,127,127,127,127,127,127,127,127,127,127,127,127,127,127,127,127,127,127,127,127,127,127,127,127,127,127,
 126,126,126,126,126,126,126,126,125,125,125,125,125,124,124,124,124,123,123,123,123,122,122,122,121,121,121,120,120,120,119,119,118,118,118,117,117,116,
