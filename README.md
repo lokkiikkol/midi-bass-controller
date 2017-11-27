@@ -1,5 +1,7 @@
 # midi-bass-controller
 
+sloppy demo: https://youtu.be/ki9qpNeXnOU
+
 ok, here is an overview of the parts you will need for this:
 
 an arduino micro
