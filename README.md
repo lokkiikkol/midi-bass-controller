@@ -8,7 +8,7 @@ an arduino micro
 
 4 fsr's: i used these: https://www.sparkfun.com/products/9376 connect one end to ground the other to 5v via a 4.7k resistor. the lead with the resistor goes to an analog in (directly at the lead before the resistor) (see in the arduino file which)
 
-4 softpots, i used 500mm: https://www.sparkfun.com/products/8681 connect the leftmost lead to 5v via a 7.5k resistor and the middle one to ground. leave the right hand lead unconnected. from the leftmost lead to the corresponding analog in (see code again) (also before the resistor) i had to cut the softpots sligthly on both sides to fit 4 on a bass neck that was originally designed for 5 strings (check picture)
+4 softpots, i used 500mm: https://www.sparkfun.com/products/8681 connect the leftmost lead to 5v via a 10k resistor (12.7k eventually) and the middle one to ground. leave the right hand lead unconnected. from the leftmost lead to the corresponding analog in (see code again) (also before the resistor) i had to cut the softpots sligthly on both sides to fit 4 on a bass neck that was originally designed for 5 strings (check picture)
 
 a joystick: https://www.sparkfun.com/products/9032 one outer lead to 5v the other outer lead to ground, middle to an analog in (see code which) i only use one axis, and the button is also not used
 
